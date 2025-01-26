@@ -7,10 +7,10 @@ This project aims to build a Recurrent Neural Network (RNN) model to predict aut
 The goal of this project is to train an RNN model that can autocomplete words given an incomplete string of 3-4 characters. For example, typing "univ" might suggest completions such as "university", "universal", etc.
 
 ## Features
-Predicts word completions based on the first 3-4 letters.
-Trained using a dataset containing 10,000 common English words.
-Provides multiple completion suggestions for each input.
+- Predicts word completions based on the first 3-4 letters.
+- Trained using a dataset containing 10,000 common English words.
+- Provides multiple completion suggestions for each input.
 ## How It Works
-Input: A string of 3-4 starting letters, e.g., "univ".
-Model: The RNN processes the input string and predicts possible word completions based on the trained model.
-Output: The model returns a list of suggested completions such as "university", "universal", etc.
+- Input: A string of 3-4 starting letters, e.g., "univ".
+- Model: The RNN processes the input string and predicts possible word completions based on the trained model.
+- Output: The model returns a list of suggested completions such as "university", "universal", etc.
